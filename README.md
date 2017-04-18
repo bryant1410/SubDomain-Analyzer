@@ -14,7 +14,7 @@ The Subdomain Analyzer can keep new addresses which found on DNS records or IP's
 The Subdomain Analyzer can brings a very qualitative information about the domain being analyzed,
 additionally, he shows a designed report with all the data.
 
-#####Examples:
+##### Examples:
 * Analyzing `example.com` domain:
 `subdomain-analyzer.py example.com`
 * Analyzing `example.com` domain, save the records on log file by name `log.txt`, works with 100 threads and use by another dictionary file by name `another-file.txt`:
@@ -24,17 +24,17 @@ additionally, he shows a designed report with all the data.
 
 Requirements:
 ===============
-###Linux Installation:
+### Linux Installation:
 1. sudo apt-get install python-dev python-pip
 2. sudo pip install -r requirements.txt
 3. easy_install prettytable
 
-###MacOSx Installation:
+### MacOSx Installation:
 1. Install Xcode Command Line Tools (AppStore)
 2. sudo easy_install pip, prettytable
 3. sudo pip install -r requirements.txt
 
-###Windows Installation:
+### Windows Installation:
 1. Install [dnspython](http://www.dnspython.org/)
 2. Install [gevent](http://www.lfd.uci.edu/~gohlke/pythonlibs/#gevent)
 3. Install [prettytable](https://pypi.python.org/pypi/PrettyTable)
